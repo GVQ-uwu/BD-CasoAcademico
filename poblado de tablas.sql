@@ -293,10 +293,6 @@ INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docent
 INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 24, 9, 9, 4, 4.6);
 INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 25, 1, 1, 4, 6.8);
 INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 26, 9, 9, 4, 5.3);
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 27, 7, 7, 4, 4.9);
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 28, 3, 3, 4, 6.1);
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 29, 13, 8, 4, 5.0);
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 30, 1, 1, 5, 7.0);
 
 -- 50 Resultados de Evaluaciones
 INSERT INTO Resultado_Evaluacion (id_resultado, id_inscripcion, id_evaluacion, puntaje_obtenido) VALUES (resultado_seq.NEXTVAL, 1, 1, 80);
