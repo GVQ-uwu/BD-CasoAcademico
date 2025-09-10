@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EsquemaModeloAcademico" id="9A55832F-6FB7-52C5-9738-5E091AFB9D5B" version="3.5">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-09 21:20:27 UTC</createdTime>
+<ownerDesignName>DiagramaModelo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9A55832F-6FB7-52C5-9738-5E091AFB9D5B</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2A3F3F79-546F-2BA1-1085-D5B9A68E4918">
+<designStoragePath>C:\modelo_academico</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6B9C4699-1FD9-7F41-261C-03E9DA5DCD4B">
+<designStoragePath>C:\modelo_academico</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="31630867-C09D-374B-AD8F-917EDF83799E">
+<designStoragePath>C:\modelo_academico</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
