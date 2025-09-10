@@ -63,34 +63,21 @@ DECLARE
             i.id_inscripcion,
             e.nombres_estudiante || ' ' || e.apellido_paterno_est || ' ' || e.apellido_materno_est AS nombre_estudiante,
             a.nombre_asignatura,
-            d.nombres || ' ' || d.apellido_paterno_doc || ' ' || d.apellido_materno_doc AS nombre_docente,
             i.nota_final
-        FROM
-            INSCRIPCION i
-        JOIN
-            ESTUDIANTE e ON i.id_estudiante = e.id_estudiante
-        JOIN
-            ASIGNATURA a ON i.id_asignatura = a.id_asignatura
-        JOIN
-            DOCENTE d ON i.id_docente = d.id_docente
-        JOIN
-            SEMESTRE s ON i.id_semestre = s.id_semestre
-        WHERE
-            s.ano_semestre = p_ano
-            AND s.periodo_semestre = p_periodo;
-
+        FROM INSCRIPCION i
+        JOIN ESTUDIANTE e ON i.id_estudiante = e.id_estudiante
+        JOIN ASIGNATURA a ON i.id_asignatura = a.id_asignatura
+        JOIN SEMESTRE s ON i.id_semestre = s.id_semestre
+        WHERE s.ano_semestre = p_ano AND s.periodo_semestre = p_periodo;
     reg_inscripcion cur_inscripciones%ROWTYPE;
-
 BEGIN
     OPEN cur_inscripciones(2023, 1);
     LOOP
         FETCH cur_inscripciones INTO reg_inscripcion;
         EXIT WHEN cur_inscripciones%NOTFOUND;
-
         DBMS_OUTPUT.PUT_LINE('Inscripción ID: ' || reg_inscripcion.id_inscripcion);
         DBMS_OUTPUT.PUT_LINE('Estudiante: ' || reg_inscripcion.nombre_estudiante);
         DBMS_OUTPUT.PUT_LINE('Asignatura: ' || reg_inscripcion.nombre_asignatura);
-        DBMS_OUTPUT.PUT_LINE('Docente: ' || reg_inscripcion.nombre_docente);
         DBMS_OUTPUT.PUT_LINE('Nota Final: ' || NVL(TO_CHAR(reg_inscripcion.nota_final), 'Pendiente'));
         DBMS_OUTPUT.PUT_LINE(' -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.- ');
     END LOOP;
