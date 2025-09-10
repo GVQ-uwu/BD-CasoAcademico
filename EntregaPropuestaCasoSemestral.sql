@@ -1,5 +1,5 @@
 ---------------------------Parte 2: Consultas SQL-------------------------------------------------------------
-set serveroutput on;
+SET SERVEROUTPUT ON;
 
 --1.Listar todos los estudiantes junto con las asignaturas inscritas utilizando JOIN.
 
