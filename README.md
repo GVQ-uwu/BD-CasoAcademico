@@ -41,6 +41,8 @@ BD-CasoAcademico/
 ├── Esquemas/
 │   ├── EsquemaModeloAcademico.dmd              # Diagrama del modelo de datos
 │   └── EsquemaModeloAcademico.png              # Imagen del esquema
+│   └── MER evaluacion 1 taller BD.dmd    
+│   └── MER evaluacion 1 taller BD.png          # Imagen del esquema normalizado
 └── Scripts/
     ├── modelo_academico~4.sql                  # Definición de tablas y estructura
     └── poblado de tablas.sql                   # Datos de prueba
