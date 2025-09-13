@@ -643,7 +643,11 @@ Este proyecto representa una implementación ejemplar de un sistema de gestión 
 
 
 *Documentación generada el 13 de septiembre de 2025*
----
+
+
 *Tegnología utilizada en la documentación - mgx.dev*
----
+
+
 *Análisis realizado por: David (Data Analyst) *
+
+---
