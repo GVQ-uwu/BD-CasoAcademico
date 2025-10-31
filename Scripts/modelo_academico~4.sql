@@ -163,7 +163,7 @@ CREATE TABLE Resultado_Evaluacion (
     CONSTRAINT uq_resultado_unico UNIQUE (id_inscripcion, id_evaluacion)
 );
 
--- Para la evaluación se añade esta tabla de auditoría (TRIGGER)
+-- Para la evaluación 2 se añade esta tabla de auditoría (TRIGGER)
 CREATE TABLE AUDIT_RESULT_EVALUACIONES(
     USER_NAME VARCHAR2(30),
     FECHA_ACCION TIMESTAMP DEFAULT SYSTIMESTAMP,
@@ -178,4 +178,5 @@ CREATE TABLE AUDIT_RESULT_EVALUACIONES(
     OLD_ID_EVALUACION NUMBER,
     NEW_ID_EVALUACION NUMBER
 );
+
 
