@@ -35,17 +35,28 @@ Este proyecto implementa un sistema de gestión académica completo que permite 
 ### Archivos Principales
 ```
 BD-CasoAcademico/
-├── README.md                                    # Información básica del proyecto
-├── Desarrollo_Nico_Belén.sql                   # Desarrollo individual de consultas
-├── EntregaPropuestaCasoSemestral.sql           # Entrega principal con todas las consultas
-├── Esquemas/
-│   ├── EsquemaModeloAcademico.dmd              # Diagrama del modelo de datos
-│   └── EsquemaModeloAcademico.png              # Imagen del esquema
-│   └── MER evaluacion 1 taller BD.dmd    
-│   └── MER evaluacion 1 taller BD.png          # Imagen del esquema normalizado
-└── Scripts/
-    ├── modelo_academico~4.sql                  # Definición de tablas y estructura
-    └── poblado de tablas.sql                   # Datos de prueba
+├── main
+  ├── README.md                                    # Información básica del proyecto
+├── Entrega-1
+  ├── Desarrollo_Nico_Belén.sql                   # Desarrollo individual de consultas
+  ├── EntregaPropuestaCasoSemestral.sql           # Entrega principal con todas las consultas
+  ├── Esquemas/
+  │   ├── EsquemaModeloAcademico.dmd              # Diagrama del modelo de datos
+  │   └── EsquemaModeloAcademico.png              # Imagen del esquema
+  │   └── MER evaluacion 1 taller BD.dmd    
+  │   └── MER evaluacion 1 taller BD.png          # Imagen del esquema normalizado
+  └── Scripts/
+      ├── modelo_academico~4.sql                  # Definición de tablas y estructura
+      └── poblado de tablas.sql                   # Datos de prueba
+├── Entrega-2
+  ├── Esquemas/
+  │   ├── EsquemaModeloAcademico.dmd              # Diagrama del modelo de datos
+  │   └── EsquemaModeloAcademico.png              # Imagen del esquema
+  │   └── MER evaluacion 1 taller BD.dmd    
+  │   └── MER evaluacion 1 taller BD.png          # Imagen del esquema normalizado
+  └── Scripts/
+      ├── modelo_academico~4.sql                  # Definición de tablas y estructura
+      └── poblado de tablas.sql                   # Datos de prueba
 ```
 
 ### Descripción de Archivos
