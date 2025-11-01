@@ -1,20 +1,6 @@
 # Documentación del Sistema de Gestión Académica
 ## Repositorio BD-CasoAcademico
 
----
-
-## Tabla de Contenidos
-1. [Información General](#información-general)
-2. [Estructura del Repositorio](#estructura-del-repositorio)
-3. [Análisis del Modelo de Base de Datos](#análisis-del-modelo-de-base-de-datos)
-4. [Implementación SQL y PL/SQL](#implementación-sql-y-plsql)
-5. [Análisis de Cumplimiento de Requisitos](#análisis-de-cumplimiento-de-requisitos)
-6. [Datos de Prueba](#datos-de-prueba)
-7. [Evaluación Técnica](#evaluación-técnica)
-8. [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
-
----
-
 ## Información General
 
 ### Repositorio
@@ -49,14 +35,20 @@ BD-CasoAcademico/
       ├── modelo_academico~4.sql                  # Definición de tablas y estructura
       └── poblado de tablas.sql                   # Datos de prueba
 ├── Entrega-2
-  ├── Esquemas/
-  │   ├── EsquemaModeloAcademico.dmd              # Diagrama del modelo de datos
-  │   └── EsquemaModeloAcademico.png              # Imagen del esquema
-  │   └── MER evaluacion 1 taller BD.dmd    
-  │   └── MER evaluacion 1 taller BD.png          # Imagen del esquema normalizado
+  ├── Graficos APEX/
+  │   ├── Cantidad de Inscripciones por Semestre.sql            # Archivo importación APEX
+  │   └── Distribución de Notas por Asignatura.sql              # Archivo importación APEX
+  │   └── Grafico Cantidad de Inscripciones por Semestre.png    # Imagen del Grafico
+  │   └── Distribución de Notas por Asignatura.png              # Imagen del Grafico
   └── Scripts/
+      ├── Scripts de creación de gráficos.SQL     # En oracle apex
+      ├── modelo_academico_poblado_tablas.sql     # PARA LA SEGUNDA ENTREGA SE AÑADIDERON MÁS REGISTROS A LA BASE DE DATOS
       ├── modelo_academico~4.sql                  # Definición de tablas y estructura
       └── poblado de tablas.sql                   # Datos de prueba
+  └── Entrega_Evaluacion2
+  └── Procedimientos_y_Funciones.sql
+  └── entrega_parcial2.sql
+  └── entrega_parcial2_final.sql             # ENTREGA 2 VERSION FINALIZADA
 ```
 
 ### Descripción de Archivos
