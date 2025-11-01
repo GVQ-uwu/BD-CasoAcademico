@@ -32,8 +32,8 @@ BD-CasoAcademico/
   │   └── MER evaluacion 1 taller BD.dmd    
   │   └── MER evaluacion 1 taller BD.png          # Imagen del esquema normalizado
   └── Scripts/
-      ├── modelo_academico~4.sql                  # Definición de tablas y estructura
-      └── poblado de tablas.sql                   # Datos de prueba
+  │   ├── modelo_academico~4.sql                  # Definición de tablas y estructura
+  │   └── poblado de tablas.sql                   # Datos de prueba
 ├── Entrega-2
   ├── Graficos APEX/
   │   ├── Cantidad de Inscripciones por Semestre.sql            # Archivo importación APEX
@@ -41,13 +41,13 @@ BD-CasoAcademico/
   │   └── Grafico Cantidad de Inscripciones por Semestre.png    # Imagen del Grafico
   │   └── Distribución de Notas por Asignatura.png              # Imagen del Grafico
   └── Scripts/
-      ├── Scripts de creación de gráficos.SQL     # En oracle apex
-      ├── modelo_academico_poblado_tablas.sql     # PARA LA SEGUNDA ENTREGA SE AÑADIDERON MÁS REGISTROS A LA BASE DE DATOS
-      ├── modelo_academico~4.sql                  # Definición de tablas y estructura
-      └── poblado de tablas.sql                   # Datos de prueba
-  └── Entrega_Evaluacion2
-  └── Procedimientos_y_Funciones.sql
-  └── entrega_parcial2.sql
+  │   ├── Scripts de creación de gráficos.SQL     # En oracle apex
+  │   └── modelo_academico_poblado_tablas.sql     # PARA LA SEGUNDA ENTREGA SE AÑADIDERON MÁS REGISTROS A LA BASE DE DATOS
+  │   └── modelo_academico~4.sql                  # Definición de tablas y estructura
+  │   └── poblado de tablas.sql                   # Datos de prueba
+  ├── Entrega_Evaluacion2
+  ├── Procedimientos_y_Funciones.sql
+  ├── entrega_parcial2.sql
   └── entrega_parcial2_final.sql             # ENTREGA 2 VERSION FINALIZADA
 ```
 
