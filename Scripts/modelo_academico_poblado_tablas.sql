@@ -320,19 +320,19 @@ INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docent
 INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 25, 1, 1, 4, 6.8);
 INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 26, 9, 9, 4, 5.3);
 -- Agregando 20 inscripciones más (CON IDs CORREGIDOS)
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 27, 1, 1, 7, 6.3); -- Catalina
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 27, 16, 13, 7, 5.9); -- Catalina
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 28, 7, 7, 7, 4.8); -- Benjamín
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 28, 11, 11, 7, 5.1); -- Benjamín
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 29, 10, 10, 7, 6.6); -- Valentina
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 30, 11, 15, 7, 5.4); -- Cristóbal
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 31, 4, 4, 7, 6.0); -- Jazmín
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 32, 1, 17, 7, 4.4); -- Nicolás
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 32, 17, 3, 7, 5.3); -- Nicolás
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 33, 3, 4, 6, 6.2); -- Antonia
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 34, 5, 6, 6, 5.7); -- Sebastián
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 35, 20, 20, 8, 6.8); -- Francisca
-INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 36, 12, 12, 8, 4.9); -- Daniel
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 27, 1, 1, 7, 6.3); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 27, 16, 13, 7, 5.9); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 28, 7, 7, 7, 4.8); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 28, 11, 11, 7, 5.1); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 29, 10, 10, 7, 6.6); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 30, 11, 15, 7, 5.4); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 31, 4, 4, 7, 6.0); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 32, 1, 17, 7, 4.4); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 32, 17, 3, 7, 5.3); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 33, 3, 4, 6, 6.2); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 34, 5, 6, 6, 5.7); 
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 35, 20, 20, 8, 6.8);
+INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 36, 12, 12, 8, 4.9);
 
 INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 1, 2, 2, 7, 6.5);
 INSERT INTO Inscripcion (id_inscripcion, id_estudiante, id_asignatura, id_docente, id_semestre, nota_final) VALUES (inscripcion_seq.NEXTVAL, 10, 14, 7, 3, 5.0);
